@@ -1,0 +1,37 @@
+{
+  "name": "node-taks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha './src/**/*.test.js'",
+    "lint:fix": "eslint --fix src/*.js"
+  },
+  "keywords": [
+    "mocha",
+    "chai"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "chai": "^4.3.7",
+    "cheerio": "^1.0.0-rc.12",
+    "fs": "^0.0.1-security",
+    "json2csv": "^6.0.0-alpha.2",
+    "mocha": "^10.2.0",
+    "p-queue": "^7.3.4",
+    "path": "^0.12.7",
+    "piscina": "^4.0.0",
+    "sinon": "^15.2.0",
+    "url": "^0.11.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
